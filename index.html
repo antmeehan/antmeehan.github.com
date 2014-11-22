@@ -17,7 +17,7 @@ header-img: "img/home-bg.jpg"
         {% endif %}
     </a>
     <p class="post-meta">Posted by {{ post.author }} on {{ post.date | date: "%B %-d, %Y" }}<br/>
-	<a href="{{post.id}}" data-disqus-identifier="{{post.id}}"></a></p>
+	<a href="{{ post.url | prepend: site.baseurl }}#disqus_thread"></a></p>
 </div>
 <hr>
 {% endfor %}
