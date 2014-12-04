@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Welcome"
-subtitle:   "Thanks for stopping by."
+subtitle:   "Thanks for stopping by"
 date:       2014-11-22 21:30:00
 author:     "Ant"
 header-img: "img/post-bg-01.jpg"
@@ -19,6 +19,6 @@ So welcome and thanks for visiting.</p>
 
 <h2 class="section-heading">FeatureToggle</h2>
 
-<p>As if one side project isn't enough, I've just this week start my first open-source project <a href="http://antmeehan.com/FeatureToggle/">FeatureToggle</a>. Feature toggling is a concept introduced to me by a colleague of mine <a href="https://au.linkedin.com/in/seanreith">Sean Reith</a>. The basic premise is that you don't create feature branches in your code repository, but instead <a href="http://blog.codinghorror.com/check-in-early-check-in-often/">commit often</a> to trunk and 'toggle' features on and off depending on which environment you have deployed to. Going live is no longer 'big bang', but instead flicking the feature toggle switch.</p>
+<p>As if one side project isn't enough, I've just this week start my first open-source project <a href="http://antmeehan.com/FeatureVersioning/">FeatureToggle</a>. Feature toggling is a concept introduced to me by a colleague of mine <a href="https://au.linkedin.com/in/seanreith">Sean Reith</a>. The basic premise is that you don't create feature branches in your code repository, but instead <a href="http://blog.codinghorror.com/check-in-early-check-in-often/">commit often</a> to trunk and 'toggle' features on and off depending on which environment you have deployed to. Going live is no longer 'big bang', but instead flicking the feature toggle switch.</p>
 
-<p>The idea behind <a href="http://antmeehan.com/FeatureToggle/">FeatureToggle</a> is to provide a library to do the heavy lifting to implement featuring toggling for your application. Initially I will look at <a href="http://www.asp.net/web-api">WebAPI</a> and <a href="http://durandaljs.com/">Durandal</a> using <a href="http://ravendb.net/">RavenDB</a> for persistence.</p> 
+<p>The idea behind <a href="http://antmeehan.com/FeatureVersioning">FeatureToggle</a> is to provide a library to do the heavy lifting to implement featuring toggling for your application. Initially I will look at <a href="http://www.asp.net/web-api">WebAPI</a> and <a href="http://durandaljs.com/">Durandal</a> using <a href="http://ravendb.net/">RavenDB</a> for persistence.</p> 
