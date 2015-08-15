@@ -9,7 +9,7 @@ github_username:  antmeehan
 facebook_username:  Anthony.Meehan
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
 highlighter: pygments
 permalink: pretty
 paginate: 5
