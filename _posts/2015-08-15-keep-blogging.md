@@ -2,9 +2,9 @@
 layout:     post
 title:      "Keep Blogging"
 subtitle:   "The gaps between posts will get shorter?"
-date:       2015-08-15 21:30:00
+date:       2015-08-15 21:30:00 +0800
 author:     "Ant"
-header-img: "img/post-bg-03.jpg"
+background: "/img/post-bg-03.jpg"
 comments:   true
 ---
 
@@ -21,7 +21,7 @@ Let's start with thoughts on why cycle-with.me hasn't really gained any traction
 
 **3. Email notifications.** Cycle-with.me currently only supports email notifications of invitations to ride and updates to the organiser on invitee responses. While a lot of people have email on their phones these days, the use of OAuth (Strava, Facebook and Google+) has meant that a lot of users have work emails receiving their notifications. Even if someone does get an email, they also need to sign in to respond.
 
-##Ideas for v2
+## Ideas for v2
 So how can I rectify these issues? Here are some ideas.
 
 **Make the system open.** Remove the requirement to log on to use cycle-with.me. Sure, creating an account should give greater benefits, but the basic use should be as frictionless as possible. This will help spread the word too.
@@ -32,7 +32,7 @@ So how can I rectify these issues? Here are some ideas.
 
 ![](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/Art/notif_ctr_banner_actions_2x.png)
 
-##How to get there
+## How to get there
 The challenge of course will be achieving these ideas. The code-base for the current version was very thrown together without much architectural consideration. I've learnt a lot about SOA since then as well. This means re-write from scratch, perhaps just keeping some of the brand design (since I can't afford to pay someone to be my designer).
 
 I'll try to keep blogging more on my progress, as even writing this post has helped a lot.

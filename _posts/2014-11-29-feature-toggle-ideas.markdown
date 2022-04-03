@@ -2,9 +2,9 @@
 layout:     post
 title:      "FeatureToggle ideas"
 subtitle:   "a.k.a. FeatureVersioning ideas"
-date:       2014-12-04 21:00:00
+date:       2014-12-04 21:00:00 +0800
 author:     "Ant"
-header-img: "img/post-bg-02.jpg"
+background: "/img/post-bg-02.jpg"
 comments:   true
 ---
 
